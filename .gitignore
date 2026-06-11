@@ -1,0 +1,19 @@
+# Python virtual environment (machine-specific, never commit)
+venv/
+__pycache__/
+*.pyc
+ 
+# Generated outputs (re-created by running the scripts)
+output/
+docker_output/
+simulated_nosql/
+dropzone/
+cleaned_diets.csv
+*.png
+ 
+# OS noise
+.DS_Store
+ 
+# NOTE: All_Diets.csv is intentionally NOT ignored — the Docker build and
+# CI tests need it, so it stays tracked in the repo.
+ 

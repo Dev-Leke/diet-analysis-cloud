@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+*.png
+cleaned_diets.csv
+.git/
